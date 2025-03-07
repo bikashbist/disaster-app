@@ -1,6 +1,11 @@
 import Header from "./Components/Header";
 import Navbar from "./Components/Navbar";
 import Slider from "./Components/Slider";
+import News from "./Components/News";
+import Banner from "./Components/Banner";
+import Events from "./Components/Events";
+import Footer from "./Components/footer";
+
 import earthquake from "./assets/images/report/earthquake.png";
 import fireimage from "./assets/images/report/danger.png";
 import landslide from "./assets/images/report/landslide.png";
@@ -12,10 +17,10 @@ function App() {
       <Header />
       <Navbar />
       <Slider />
-      <div className="disaster py-lg-5 py-3 ">
+      <div className="disaster pt-lg-5 pb-lg-4 pb-3 pt-3 ">
         <div className="container">
           <div className="disaster__report ">
-            <div className="section-title text-center">
+            <div className="section-title text-start">
               <h1>Disaster Report</h1>
             </div>
             <div className="disaster__details bg-white mt-lg-4 ">
@@ -312,6 +317,11 @@ function App() {
           </div>
         </div>
       </div>
+      <News />
+      <Banner />
+      <Events />
+      <Footer/>
+    
     </>
   );
 }

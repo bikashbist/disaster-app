@@ -1,6 +1,3 @@
-
-
-
 import destructionImage1 from "../assets/images/slider/people.jpg";
 function Slider() {
   return (
